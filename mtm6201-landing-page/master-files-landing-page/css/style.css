@@ -1,0 +1,181 @@
+    body{
+        background-color: #f7f7ff;
+        font-family: 'Montserrat', sans-serif;
+    }
+    
+    .logo{
+        width: 30%;
+        margin-left: 20px;
+    }
+
+    p .applied{
+        text-align: center;
+    }
+
+    .scooter{
+       /* width: 50%; */
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width: 70%;
+
+
+    }
+
+    h1{
+        font-size: 90px;
+        text-align: left;
+        color: #333131;
+        width: 80%;
+        text-align: left;
+        font-weight: bold;
+    }
+
+    .subhead{
+        font-size: 30px;
+        color: #333131;
+        margin-left: 20px; 
+        width: 90%;
+    }
+
+    .header{
+        padding-left: 20px;
+        padding-top: 10px;
+    }
+
+    .contact{
+      /*  text-align: center; */
+        width: 75%;
+        height: 600px;;
+        background-color: white;
+        border-radius: 10%;
+        margin: 0 auto;
+        box-shadow: 4px 4px 6px grey;
+    }
+
+    footer{
+        background-color: #fffd8c;
+    }
+
+    /* h2{
+        text-align: left;
+        padding-left: 20px;
+        padding-top: 10px;
+    }
+        */
+
+    .applynow{
+        font-size: 40px;
+        padding-top: 20px;
+    }    
+
+    input{
+        width: 80%;
+        margin: 10px;
+        height: 30px;
+        border-radius: 10px;
+        background: lightgray;
+        line-height: 10px;
+    }
+
+    .button1{
+        border-radius: 7px;
+        background-color: #ff8480;
+        padding: 0 5px;
+    }
+
+    .button1{
+        text-align: center;
+    }
+        
+        
+    .button2{
+        width: 90%;
+        height: 40px;
+        background-color: #57eeab;
+        margin: 20px;
+        border-radius: 10px;
+        color: white;
+        font-size: 25px;
+    }
+    
+    .hour{
+        display: flex;
+        flex-wrap: wrap;
+        align-items: center;
+        justify-content: center;
+        height: 40px;
+        
+    }
+    .hour #hours{
+        flex-basis: calc(20% - 4px);
+       
+    }
+    .hour #city{
+        flex-basis:calc(50% - 4px);
+    }
+    
+    footer h2{
+        width: 55%;
+        padding-top: 20px;
+        padding-left: 50px;
+        font-size: 25px;
+        font-weight: bold;
+    }
+    
+    footer p{
+        width: 70%;
+        font-size: 20px;
+        padding-left: 50px;
+    }
+    
+    footer img{
+        display: inline-block;
+        margin: 10px;
+        padding-left: 50px;
+    }
+ 
+    @media screen and (min-width: 560px) and (max-width:960px){
+
+    @media screen and (min-width:961px){
+    }
+    
+       .scooter{
+        position:absolute;
+        left:200px;
+        top:200px;
+        z-index:-1;
+       }
+       .left{ 
+           float: left;
+           width: 50%;
+           
+       }
+        
+       .contact{
+           float: right;
+           width: 50%;
+       }
+    
+       footer{
+           clear: both;
+           width: 100%;
+       }
+    
+       .logo{
+           display: flex;
+           flex-basis: 100%;
+           width: 10%;
+       }
+       footer{
+           height: 200px;
+       }
+    
+       footer div{
+           float: left;
+       }
+    
+       footer img{
+           float: right; }
+        
+        }
